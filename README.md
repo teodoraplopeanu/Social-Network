@@ -16,31 +16,31 @@ typedef struct network {
 ## Friendship Network
 
 Functions for managing user connections:
-* **Add Friend**
+### Add Friend
 		`add <nume-1> <nume-2>`
 		Establishes a bidirectional connection.
 		
-* **Remove Friend** 
+### Remove Friend
 	`remove <nume-1> <nume-2>`
 	Removes the connection.
 
-* **Get Distance**
+### Get Distance
 	`distance <nume-1> <nume-2>`
 	Calculates the distance using BFS.
 
-* **Suggestions**
+### Suggestions
 	`suggestions <nume>`
 	Finds friends of friends who are not yet friends with the user.
 
-* **Common Friends**
+### Common Friends
 	 `common <nume-1> <nume-2>`
 	 Displays mutual friends.
 
-* **Number of Friends**
+### Number of Friends
 	`friends <nume>`
 	Shows the number of friends.
 
-* **Most Popular User**
+### Most Popular User
 	`popular <nume>`
 	Displays the user with the most connections.
 
