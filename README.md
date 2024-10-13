@@ -104,6 +104,6 @@ Shows all posts and reposts of a user.
 `friends-repost <nume> <post-id>`
 Displays friends who reposted a specific post.
 
-### Clică
+### Clique
 `common-group <nume>`
 Finds the largest group of friends containing the user using the Bron-Kerbosch algorithm.
